@@ -1,0 +1,17 @@
+{
+  "name": "codelens-ai-code-explainer-debugger",
+  "version": "2.0.0",
+  "description": "CodeLens — AI Code Explainer & Debugger with Local Ollama and Deterministic Checks",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "test": "cd server && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
