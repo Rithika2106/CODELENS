@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://www.cloudflare.com/website-terms/api/:path*"
+      "destination": "https://mia-mode-adds-browser.trycloudflare.com/api/:path*"
     }
   ]
 }
