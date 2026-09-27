@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ahead-recipe-skilled-rpm.trycloudflare.com/api/:path*"
+    }
+  ]
+}
